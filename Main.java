@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         
         // Create a variable to store the amount of money you have
-        int amountOfMoney = 300;
+        int amountOfMoney = 199;
         
         // 1st level if-statement
         if (amountOfMoney < 300) {
@@ -17,7 +17,14 @@ public class Main {
 
             } else {
                 // code executed when 2nd level if-statement is false
-                System.out.println("Either hoover Dam or Area 51");
+                // System.out.println("Either hoover Dam or Area 51");
+                boolean hasIntrestInHistory = false;
+
+                if (hasIntrestInHistory) {
+                    System.out.println("Go to Hoover Dam");
+                } else {
+                    System.out.println("Go to Area 51");
+                }
             }
 
         } else {
